@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lab8_68076288</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.banner{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("travel.jpg");
+background-size:cover;
+background-position:center;
+height:400px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+
+color:white;
+}
+
+.banner h1{
+font-size:48px;
+font-weight:bold;
+text-shadow:2px 2px 10px rgba(0,0,0,0.8);
+}
+
+.card{
+border:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.btn-primary{
+background-color:#00a8a8;
+border:none;
+}
+
+.btn-primary:hover{
+background-color:#007c7c;
+}
+
+footer a{
+color:#00d4d4;
+text-decoration:none;
+margin:0 5px;
+}
+
+footer a:hover{
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">Pongsapak Travel</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">หน้าแรก</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">เกี่ยวกับ</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่อเรา</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+
+</nav>
+
+<!-- Banner -->
+
+<div class="banner">
+
+<h1>My Pongsapak Travel </h1>
+
+<p>บริการถ่ายภาพและท่องเที่ยว</p>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="container mt-5">
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<div class="card-body">
+
+<h4>Tour Guide</h4>
+
+<p>บริการไกด์นำเที่ยวพาคุณเที่ยวสถานที่ต่างๆ</p>
+
+<button class="btn btn-primary">ดูเพิ่มเติม</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="card">
+
+<div class="card-body">
+
+<h4>Photography</h4>
+
+<p>บริการถ่ายภาพสำหรับทริปท่องเที่ยว</p>
+
+<button class="btn btn-primary">ดูเพิ่มเติม</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="card">
+
+<div class="card-body">
+
+<h4>Photo Editing</h4>
+
+<p>บริการตกแต่งรูปภาพให้สวยงาม</p>
+
+<button class="btn btn-primary">ดูเพิ่มเติม</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center p-4 mt-5">
+
+<p>Email : pongsapak.set@spumail.net</p>
+
+<p>Tel : 094-3543654</p>
+
+<p>Address : Bangkok Thailand</p>
+
+<p>
+<a href="https://www.facebook.com/wintxer.aaxron" target="_blank">Facebook</a> |
+<a href="https://www.instagram.com/wintxeraaxron/" target="_blank">Instagram</a> |
+<a href="https://twitter.com" target="_blank">Twitter</a>
+</p>
+
+</footer>
+
+<!-- Modal -->
+
+<div class="modal fade" id="myModal">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">ติดต่อเรา</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<label>แจ้งปัญหาสอบถามของคุณ</label>
+
+<textarea class="form-control" rows="4"></textarea>
+
+</div>
+
+<div class="modal-footer">
+
+<button class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+
+<button class="btn btn-primary">ส่ง</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
